@@ -35,3 +35,20 @@ ul {
     color: white;
 }
 
+.navegador img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 70px;
+    height: 55px;
+}
+
+.navegador a {
+    color: #303030;
+    font-size: 14px;
+}
+
+.navegador li {
+    font-weight: 700;
+    margin-left: 25px;
+}
