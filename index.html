@@ -10,7 +10,7 @@
 
     <header class="header">
         <img src="assets/logo.png">
-        <nav class="nav">
+        <nav>
             <a href="#">Happiness</a>
             <a href="#">Books</a>
             <a href="#">About Us</a>
@@ -20,27 +20,29 @@
 
     <main>
         <section class="hero">
-            <img src="assets/img01.png">
-        <div class="hero-texto">
-            <h1>HOW HAPPY<br>ARE YOU?</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            <div>
+                <img src="assets/img01.png">
+            </div>
+            <div>
+                <h1>HOW HAPPY<br>ARE YOU?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Aut totam animi delectus, magnam perspiciatis officiis nemo
-                 possimus dolorem exercitationem ea aliquid eligendi praesentium
-                  harum debitis architecto optio at reiciendis odio.</p>
-            <a href="#" class="btn btn-amarillo">Read more</a>
+                possimus dolorem exercitationem ea aliquid eligendi praesentium
+                harum debitis architecto optio at reiciendis odio.</p>
+                <button>Read More</button>
         </div>
     </section>
 
-    <section>
+    <section id="happiness">
         <div class="intermedio">
             <h1>HAPPINESS IN NUMBERS</h1>
             <p>Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit, sed do
                 eliusmod tempor incididunt ut</p>
-            <h4>Read More > </h4>
+            <a href="#">Read More &gt;</a>
         </div>
 
-        <div>
+        <div class="graficas">
             <img src="assets/graph01.png">
             <img src="assets/graph02.png">
         </div>
@@ -50,9 +52,6 @@
         <div class="union">
             <h2>WE CAN HELP YOU TO BE HAPPY</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt iusto optio, officiis quasi ea alias ipsa aliquid eligendi, consequatur exercitationem modi consectetur vitae officia laudantium fugit assumenda voluptatibus labore praesentium.</p>
-        </div>
-
-        <div>
             <button>Rwad More</button>
         </div>
 
@@ -62,22 +61,19 @@
     </section>
 
     <section>
-        <div class="medio">
+        <div>
             <img src="assets/img03.png">
+        </div>
+
+        <div class="medio">
             <h2>% HAPPINESS</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia eveniet veniam ut! Perspiciatis neque recusandae quasi non sit! Voluptate possimus consequuntur cum nobis a vero fugiat laudantium distinctio eaque eveniet.</p>
-        </div>
-
-        <div>
             <button>Read More</button>
-        </div>
-
-        <div>
             <img src="assets/graph01.png">
         </div>
     </section>
 
-    <section>
+    <section id="about">
         <div class="us">
             <h2>ABOUT US</h2>
             <p>Lorem ipsum dolor sit ament, consectetur adipisicing elit, sed do eliusmod
@@ -87,13 +83,13 @@
         </div>
     </section>
 
-    <section>
+    <section id="books">
         <div class="team">
             <img src="assets/img05.png">
         </div>
 
         <div> 
-            <h3>OUR TEAM</h3>
+            <h2>OUR TEAM</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed enim facere necessitatibus exercitationem atque quasi nobis modi vel error quos numquam temporibus nisi, asperiores libero molestias illo! Cupiditate, accusamus commodi.</p>
             <button>Read more</button>
         </div>
@@ -112,6 +108,30 @@
     </section>
 
     <section>
+        <form class="formulario" action="#" method="post">
+            <div>
+                <label for="nombre">Name</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+            <div>
+                <label for="apellido">Surname</label>
+                <input type="text" id="apellido" name="apellido">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div>
+                <label for="mensaje">Message</label>
+                <textarea id="mensaje" name="mensaje" rows="6"></textarea>>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea modi magni labore, alias dolor, perferendis eos sed excepturi maxime ratione blanditiis aperiam odit expedita, fuga tempore maiores itaque ipsum voluptatem.</p>
+        </form>
+
         <div class="docum">
             <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, enim mollitia. Blanditiis eos dolores, deleniti reiciendis culpa, error quod dolor alias numquam accusantium aspernatur libero nesciunt consectetur, enim harum perferendis.</p>
@@ -119,7 +139,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="contact">
         <div class="contacto">
             <h2>CONTACT</h2>
             <p>Lorem ipsun dolor sit ament, consectetur</p>
@@ -127,4 +147,8 @@
             <button>Contact</button>
         </div>
     </section>
+
+    </main>
+
+    <footer></footer>
 </body>
