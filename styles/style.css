@@ -38,8 +38,8 @@ h1, h2 {
     margin-bottom: 24px;
 }
 
-h1 { font-size: 80px;}
-h2 { font-size: 56px;}
+h1 { font-size: 70px;}
+h2 { font-size: 46px;}
 
 p {
     margin-bottom: 30px;
@@ -54,4 +54,84 @@ button {
     font-size: 14px;
     font-weight: 700;
     cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.hero button,
+main > section:nth-child(5) button,
+main > section:nth-child(6) button,
+main > section:nth-child(7) button {
+    background-color: var(--amarillo);
+    color: var(--negro);
+}
+
+header img {
+    height: 55px;
+    width: auto;
+}
+
+nav {
+    display: flex;
+    gap: 28px;
+}
+
+nav a {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main > section {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+main > section > div {
+    flex: 1;
+}
+
+.hero {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 40px 100px;
+}
+
+.hero p {
+    font-size: 14px;
+    margin-bottom: 26px;
+}
+
+main > section:nth-child(2) {
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    max-width: 930px;
+    margin: 0 auto -100px;
+    padding: 45px 55px;
+    background-color: var(--gris);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+}
+
+.intermedio h2 {
+    color: var(--amarillo);
+    font-size: 46px;
+    margin-bottom: 14px;
+}
+
+.intermedio p {
+    font-size: 13px;
+    max-width: 230px;
+    margin-bottom: 12px;
+}
+
+.intermedio a {
+    font-weight: 700;
+    font-size: 13px;
 }
