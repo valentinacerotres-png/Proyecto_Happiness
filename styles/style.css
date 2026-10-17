@@ -68,6 +68,14 @@ main > section:nth-child(7) button {
     color: var(--negro);
 }
 
+header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--amarillo);
+    padding: 8px 48px;
+}
+
 header img {
     height: 55px;
     width: auto;
