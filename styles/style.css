@@ -413,3 +413,222 @@ footer > img {
     display: flex;
     gap: 20px;
 }
+
+    header {
+        padding-left: max(48px, calc((100vw - 1200px) / 2));
+        padding-right: max(48px, calc((100vw - 1200px) / 2));
+    }
+
+    main > section:nth-child(3),
+    main > section:nth-child(6),
+    main > section:nth-child(7),
+    main > section:nth-child(9) {
+        padding-left: max(70px, calc((100vw - 1200px) / 2));
+        padding-right: max(70px, calc((100vw - 1200px) / 2));
+    }
+
+@media (max-width: 1279px) {
+
+    h1 { font-size: 68px; }
+    h2 { font-size: 48px; }
+
+    header { padding: 8px 32px; }
+
+    .hero { padding: 50px 30px 90px; }
+
+    main > section:nth-child(2) {
+        width: 85%;
+        padding: 40px;
+    }
+
+     .graficas img { width: 140px; }
+
+    main > section:nth-child(3) { padding: 150px 40px 80px; }
+
+    main > section:nth-child(4) { width: 85%; }
+
+    main > section:nth-child(6) { padding: 80px 40px; }
+    main > section:nth-child(7) { padding: 60px 40px; }
+
+    main > section:nth-child(8) {
+        padding: 90px 40px;
+        gap: 60px;
+    }
+
+    main > section:nth-child(9) { padding: 50px 40px; }
+}
+@media (max-width: 920px) {
+
+    h1 { font-size: 56px; }
+    h2 { font-size: 40px; }
+
+    header { padding: 8px 24px; }
+    nav { gap: 20px; }
+
+    main > section { gap: 40px; }
+
+    .hero { padding: 40px 24px 80px; }
+
+    main > section:nth-child(2) {
+        width: 90%;
+        padding: 36px 28px;
+        gap: 20px;
+    }
+
+    .intermedio h2 { font-size: 38px; }
+    .graficas img { width: 115px; }
+
+    main > section:nth-child(3) { padding: 130px 28px 70px; }
+
+    main > section:nth-child(4) { width: 90%; }
+
+    .medio { padding: 24px 28px; }
+    .medio img { width: 170px; }
+
+    main > section:nth-child(5) { padding: 40px 28px; }
+    main > section:nth-child(6) { padding: 60px 28px; }
+    main > section:nth-child(7) { padding: 50px 28px; }
+
+    main > section:nth-child(8) {
+        padding: 70px 28px;
+        gap: 40px;
+    }
+
+    .formulario { padding: 32px 28px; }
+
+    main > section:nth-child(9) { padding: 40px 28px; }
+    .contacto h2 { font-size: 40px; }
+
+    footer { padding: 50px 24px 36px; }
+}
+
+@media (max-width: 768px) {
+
+    h1 { font-size: 48px; }
+    h2 { font-size: 38px; }
+
+    main > section {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 30px;
+    }
+
+    main > section > div { flex: none; }
+
+    .hero { padding: 40px 24px 70px; }
+     main > section:nth-child(2) {
+        width: 90%;
+        padding: 30px 24px;
+        margin-bottom: -60px;
+    }
+
+    .intermedio p { max-width: none; }
+    .graficas { justify-content: center; gap: 30px; }
+    .graficas img { width: 130px; }
+     main > section:nth-child(3) {
+        padding: 100px 24px 50px;
+    }
+
+    .union p { max-width: none; }
+     main > section:nth-child(4) {
+        width: 90%;
+        margin: 50px auto;
+        gap: 0;
+    }
+
+    main > section:nth-child(4) > div:first-child img {
+        height: auto;
+        max-height: 380px;
+    }
+
+    .medio { padding: 24px; }
+    .medio img { margin: 25px auto 0; }
+    main > section:nth-child(5) { padding: 40px 24px; }
+     main > section:nth-child(6),
+    main > section:nth-child(7) { padding: 50px 24px; }
+
+    main > section:nth-child(6) > div:last-child,
+    .free { max-width: none; }
+     main > section:nth-child(8) { padding: 60px 24px; }
+    .formulario { width: 100%; }
+    .docum p { max-width: none; }
+
+     main > section:nth-child(9) { padding: 40px 24px; }
+
+     .enlaces { margin: 50px 0 60px; }
+
+     @media (max-width: 480px) {
+
+    body { font-size: 14px; }
+
+    h1 { font-size: 40px; }
+    h2 { font-size: 32px; }
+
+    header {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 16px;
+     }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px 16px;
+    }
+
+    nav a { font-size: 13px; }
+
+    .hero { padding: 30px 16px 60px; }
+
+    main > section:nth-child(2) {
+        width: 94%;
+        padding: 24px 18px;
+    }
+
+    .intermedio h2 { font-size: 34px; }
+    .graficas img { width: 110px; }
+
+    main > section:nth-child(3) { padding: 90px 16px 40px; }
+
+    main > section:nth-child(4) {
+        width: 94%;
+        margin: 40px auto;
+    }
+
+    .medio { padding: 20px 16px; }
+    .medio img { width: 150px; }
+
+    main > section:nth-child(5) { padding: 30px 16px; }
+    .us h2 { font-size: 28px; }
+
+    main > section:nth-child(6),
+    main > section:nth-child(7) { padding: 40px 16px; }
+
+    main > section:nth-child(6) h2 { font-size: 36px; }
+
+    main > section:nth-child(8) { padding: 40px 16px; }
+    .formulario { padding: 24px 16px; }
+    .docum p { font-size: 15px; }
+
+    main > section:nth-child(9) { padding: 30px 16px; }
+    .contacto h2 { font-size: 34px; }
+    .contacto p { font-size: 15px; }
+
+    .contacto button {
+        padding: 12px 32px;
+        font-size: 16px;
+    }
+
+    footer { padding: 40px 16px 30px; }
+
+    .enlaces {
+        gap: 30px;
+        font-size: 15px;
+    }
+
+    .base {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+    }
+}
